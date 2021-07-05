@@ -1,0 +1,106 @@
+html {
+    font-size: 10px;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #000;
+    font-size: 1.8rem;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+  }
+  nav p{
+    padding-left: 3rem; 
+  }
+  ul {
+    list-style: none;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu li {
+    margin-left: 2rem;
+  }
+  li a {
+    padding: 1.85rem;
+    color: #FFF;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #FFF;
+    color: #000;
+  }
+  #home {
+    background-color: #DBDEA7;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #title {
+    font-size: 6rem;
+  }
+  #legend {
+    font-size: 1.6rem;
+    position: absolute;
+    padding-top: 10rem;
+  }
+  img {
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  #img-caption {
+    font-size: 2rem;
+    margin: 15px 0 5px 0;
+    text-align: center;
+  }
+  #tribute-info ul {
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 4rem;
+  }
+  #tribute-info {
+    background-color: #DBDEA7;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    width: 98%;
+  }
+  #tribute-info h3 {
+    font-size: 2rem;
+    text-align: justify;
+  }
+  footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 0.4rem;
+    font-size: 1.6rem;
+    text-align: right;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    width: 100%;
+  }
+  footer a {
+    color: #FFF;
+  }
+  footer a:visited {
+    color: #DBDEA7;
+  }
+  @media (max-width: 34rem) {
+    html {
+      font-size: 7px;
+    }
+  }
